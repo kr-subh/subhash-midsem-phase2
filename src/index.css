@@ -1,0 +1,111 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+    background-color: rgb(224, 224, 243);
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(142, 14, 14);
+    
+}
+.links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: aqua;
+}
+
+.room-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.room-list li {
+  width: 250px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.room-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.room-list h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.room-list h4 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.room-list p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.room-details {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-details h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.room-details h2 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.room-details h5 {
+  color: #555;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.room-details p {
+  color: #444;
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.room-details p:last-child {
+  line-height: 1.6;
+}
+
+.home {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f5f5f5;
+  min-height: 80vh;
+}
+
+.home h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.home p {
+  font-size: 18px;
+  color: #666;
+}
